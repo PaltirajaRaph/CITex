@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A simple web-based forum projecct designed for students and faculty at Calvin Institute to share knowledge and exchange ideas across various academic disciplines. The platform facilitates discussions within specific topic areas related to technology, science, engineering, and other fields.
+A simple web-based forum project designed for students and faculty at Calvin Institute to share knowledge and exchange ideas across various academic disciplines. The platform facilitates discussions within specific topic areas related to technology, science, engineering, and other fields.
 
 ## Key Features
 
