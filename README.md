@@ -1,4 +1,4 @@
-# CITex - Calvin Institute Technology Exchange
+# CITex - Calvin Institute of Technology Exchange
 
 ## Project Overview
 
