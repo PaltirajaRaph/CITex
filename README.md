@@ -121,10 +121,6 @@ To modify the application:
 4. Push to the branch
 5. Open a pull request
 
-## License
-
-This project is created for educational purposes at Calvin Institute of Technology.
-
 ## Author
 
-Your Name - Calvin Institute of Technology
+Paltiraja Raphael
