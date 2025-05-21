@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  # PHP application service
+  php-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html/
+    depends_on:
+      - db
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_USER=forum_user
+      - MYSQL_PASSWORD=forum_password
+      - MYSQL_DB=forum_db
+    restart: always
+
+  # MySQL database service  
+  db:
+    image: mysql:8.0
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=forum_db
+      - MYSQL_USER=forum_user
+      - MYSQL_PASSWORD=forum_password
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d/
+      - mysql_data:/var/lib/mysql
+    restart: always
+
+volumes:
+  mysql_data:
