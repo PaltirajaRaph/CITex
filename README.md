@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-CITex (Calvin Institute Technology Exchange) is a web-based forum application designed for students and faculty at Calvin Institute to share knowledge and exchange ideas across various academic disciplines. The platform facilitates discussions within specific topic areas related to technology, science, engineering, and other fields.
+A simple web-based forum projecct designed for students and faculty at Calvin Institute to share knowledge and exchange ideas across various academic disciplines. The platform facilitates discussions within specific topic areas related to technology, science, engineering, and other fields.
 
 ## Key Features
 
@@ -16,19 +16,19 @@ CITex (Calvin Institute Technology Exchange) is a web-based forum application de
 
 The forum is divided into three main academic divisions:
 
-1. **IBDA/IEE**: Informatics, Business Digital, and Artificial Intelligence / Industrial & Electrical Engineering
+1. **IBDA/IEE**: IT and Big Data Analytics / IoT and Electrical Engineering
    - Web Programming
    - Microcontrollers
    - Object Oriented Programming
    - System Database
 
-2. **BMS/CFP**: Biomedical Science / Consumer Food Production
+2. **BMS/CFP**: Biomedical Science / Chemical and Food Processing
    - Genomics
    - Biotechnology
    - Nutrition
    - Food Processing
 
-3. **ASD/SCCE**: Architecture & Sustainable Design / Smart City & Civil Engineering
+3. **ASD/SCCE**: Architecture & Sustainable Design / Smart Construction & Civil Engineering
    - Sustainable Architecture
    - Green Building
    - Smart Construction
